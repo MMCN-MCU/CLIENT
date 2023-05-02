@@ -1,9 +1,11 @@
 <script lang="ts">
-  import "../app.css"
+  import Toast from "$lib/components/Toast.svelte";
+  import "../app.css";
 </script>
 
 <svelte:head>
   <title>MCU-CLIENT</title>
 </svelte:head>
 
-<slot/>
+<slot />
+<Toast />
